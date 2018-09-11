@@ -18,21 +18,24 @@ html {
 }
 
 body {
-	background-image: url (http:"//www.chadwaterbury.com/images/Yellow%20and%20Black/Backgrounds/grunge-construction2.jpg");
+	background-image: url("http://eskipaper.com/images/blue-and-pink-background-1.jpg");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white;
 }
-
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1080px;
   padding: 0 10px;
   width: 100%;
+  background: linear-gradient(to right, rgba(206, 30, 255, 0.7), rgba(23, 88, 216, 0.7), rgba(27, 209, 203, 0.7));
+  border-radius: 25px;
+  padding: 20px;
+  border-bottom: 1.5px rgb(80, 65, 65);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -47,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $white;
   }
 }
 
@@ -61,7 +64,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $white ;
 }
 
 p {
@@ -73,7 +76,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -109,6 +112,46 @@ strong, b {
 img {
   max-width: 100%;
 }
+table {
+    width: 100%;
+}
+
+th {
+   color: black;
+   background: rgba(210, 77, 255, 0.4);
+   height:60px;
+   vertical-align: middle;
+   border: 2px solid black;
+}
+
+table, td {
+   border: 2px solid black;
+   background-color: rgba(210, 77, 255, 0.4);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 18px;
+    text-align: left;
+}
+
+td {
+    vertical-align: center;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -271,12 +314,7 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
+
 
 footer {
   padding: 20px 0;
