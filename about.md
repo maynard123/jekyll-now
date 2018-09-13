@@ -8,7 +8,7 @@ Welcome to my blog!
 
 ### More Information
 
-Watch this cool video: https://www.youtube.com/watch?v=SxiK7BuWQ2M
+I like dabbing on those haterzzz
 
 ### Contact me
 
